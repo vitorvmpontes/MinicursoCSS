@@ -3,7 +3,10 @@
     src: url(font/BeaufortforLOL-Regular.otf);
     
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 div{
     text-align: center;
     font-family: "beautfortlol-regular";
@@ -14,12 +17,15 @@ div > p {
     font-size: 1.3em;
 }
 img{
-    width: 400px;
+    width: 500px;
     height: 400px;
 }
 input{
     width: 75px;
     height: 75px;
+}
+input:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.464);
 }
 body{
     background-image: url(img/ionia.jpg);
@@ -51,4 +57,14 @@ body{
     background-image: url(img/R.PNG);
     background-size: cover;
     background-repeat: no-repeat;
+}
+#lolzin{
+    width: 250px;
+    height: 100px;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
 }
